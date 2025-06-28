@@ -10,6 +10,4 @@ button = ReplyKeyboardMarkup(keyboard=[
     [KeyboardButton(text='Інфо Чернігів/область')]
     ], resize_keyboard=True)
 
-button1 = ReplyKeyboardMarkup(keyboard=[
-    [KeyboardButton(text='Інфо Чернігів/область')]
-    ], resize_keyboard=True)
+button1 = button
