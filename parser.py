@@ -24,3 +24,4 @@ async def get_air_warning_message(channels):
         if any(kw.lower() in text.lower() for kw in KEYWORDS):
             message.append(chanel.text)
     return message
+
